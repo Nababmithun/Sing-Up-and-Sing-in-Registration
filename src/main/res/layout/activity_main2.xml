@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hhh"
+    tools:context="com.androidlime.home_page.Main2Activity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/up"
+        />
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/user_24dp"
+        android:drawableTint="@android:color/white"
+        android:hint="Name"
+        android:drawablePadding="17dp"
+        android:textColorHint="@android:color/white"
+        />
+
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="17dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="Email Address"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:id="@+id/email_xml"
+        android:drawableTint="@android:color/white"
+
+        />
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/password_24dp"
+        android:hint="Password"
+        android:drawablePadding="17dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/password_xml"
+        android:drawableTint="@android:color/white"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Sign Up"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:id="@+id/signup_btn"
+        />
+
+</LinearLayout>
+
+
+</RelativeLayout>
